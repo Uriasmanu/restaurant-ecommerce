@@ -1,3 +1,5 @@
+import './NavegacaoLateral.scss';
+
 import menu from '../../imagens/BarChart.svg'
 import grafico from '../../imagens/BarChart.svg'
 import favorito from '../../imagens/Favorite.svg'
@@ -12,14 +14,14 @@ import alerta from '../../imagens/SyncSettings.svg'
 const NavegacaoLateral = () =>{
     return (
         <div className="container-navegacaolateral">
-          <img src={menu} alt="" />
-          <img src={grafico} alt="" />
-          <img src={favorito} alt="" />
-          <img src={ticket} alt="" />
-          <img src={carrinho} alt="" />
-          <img src={configuracao} alt="" />
-          <img src={perfil} alt="" />
-          <img src={alerta} alt="" />
+          <img src={menu} alt="menu" />
+          <img src={grafico} alt="grafico" />
+          <img src={favorito} alt="favorito" />
+          <img src={ticket} alt="ticket" />
+          <img src={carrinho} alt="carrinho" />
+          <img src={configuracao} alt="configuracao" />
+          <img src={perfil} alt="perfil" />
+          <img src={alerta} alt="alerta" />
 
         </div>
     )
